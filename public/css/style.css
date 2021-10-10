@@ -83,5 +83,15 @@ a {
 }
 
 .home {
+  position: relative;
   height: 100vh;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background: yellow;
+  position: absolute;
+  top: 60%;
+  left: 70%;
 }
