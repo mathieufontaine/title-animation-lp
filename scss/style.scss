@@ -3,3 +3,65 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  background: white;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  margin-left: 5rem;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%) scale(6);
+}
+
+.first-page {
+  height: 100vh;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .intro {
+    width: 60%;
+    padding: 4rem;
+  }
+  img {
+    height: 50%;
+    width: 100%;
+  }
+}
+
+.home {
+  height: 100vh;
+}
